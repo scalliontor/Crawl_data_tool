@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project Output and Data
+outputs/
+documents/
