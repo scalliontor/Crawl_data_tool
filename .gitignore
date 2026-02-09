@@ -2,18 +2,35 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
+dist/
+build/
 
 # Virtual Environment
 .venv/
 venv/
 env/
 
-# Editor directories
+# Editor / IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+*.sublime-*
 
-# Project Output and Data
-outputs/
+# OS
+.DS_Store
+Thumbs.db
+
+# ── Project Data (large, not tracked) ──
+data_universal/
 documents/
+outputs/
+
+# Logs
+*.log
+
+# Temp / debug files
+*.html
+*.ipynb
+*.pdf
